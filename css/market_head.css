@@ -1,0 +1,701 @@
+
+.wrap{
+    width: 1200px;
+    padding-left: 15px;
+    margin: 0  auto;
+}
+
+/* 继承html的宽度，最大的盒子 */
+#box{
+    height: 100%;
+    width: 100%;
+    background: #eeeeee;
+        /* 整个大盒子被套了一个灰色*/
+}
+
+/* ——————————上半部分可复用导航———————— */
+.head_t{
+    min-width: 1348px;
+    width: 100%;
+    background: #24272c;
+    height: 40px;
+}
+
+/* 头部导航居右部分 */
+.header_top{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+/* 阿里云标题 */
+.header_top h1{
+    float: left;
+    width: 100px;
+    height: 100%;
+    padding-left: 20px;
+    /* background: url(../img/h1_logo.png)
+                no-repeat 15px center; */
+}
+.header_top h1  img{
+    padding-top: 12px;
+}
+.header_top h1 a{
+    font-size: 0;
+}
+
+/* 搜索框 */
+
+
+#input{
+    width: 200px;
+    height: 26px;
+    float: right;
+    background: #4f5558;
+    border: none;
+    padding-left: 8px;
+    transition-duration: 1s;
+    /* 指定宽度的经过的时间 */
+    transition-property: width;
+}
+.header_top form:hover>#input{
+    width: 300px;
+    border: 1px solid #00c1de;
+
+}
+.header_top form{
+    float: right;
+    padding-top: 7px;
+    height: 33px;
+    position: relative;
+}
+.button{
+   display: block;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 12px;
+    bottom: 0;
+    width: 26px;
+    height: 18px;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-left: 1px solid #696e71;
+    background-image: url(https://img.alicdn.com/tfs/TB1fBsneyqAXuNjy1XdXXaYcVXa-28-28.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.button:hover{
+    background-image: url(https://img.alicdn.com/tfs/TB1zv90g8DH8KJjy1zeXXXjepXa-28-28.png);
+}
+/* 中国站下拉菜单 */
+.list{
+ /* width: 375px; */
+    height: 40px;
+    float: right;       
+    font-size: 14px;
+    line-height: 40px;
+}
+
+/* 上导航栏的其他可选菜单 */
+.list .list2{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+   
+}
+.list .list2 a{
+    padding: 0 10px;    
+}
+.list>li{
+    height: 40px;
+    float: left;
+    position: relative;
+    z-index: 99;
+}
+.list .list2 a:hover{
+    color: #00a2ca;
+}
+.first:hover {
+ background-color: #272b2f;
+ width: 135px;
+}
+.list_a {
+ width: 135px;
+   background: url(../img/span_2.png)no-repeat 110px center;
+}
+.list_a:hover{
+    background: url(../img/span_2_2.png)no-repeat 110px center;
+}
+
+/* 中国站下拉菜单 */
+.list1 .span1{
+    width: 37px;
+    height: 40px;
+    float: left;
+    color:#e5e9ee;
+    font-size: 0;
+   background: url(../img/h_strong.png)no-repeat center;
+}
+.list1 .span2{
+   height: 28px;
+   text-align: center;
+   display: inline-block;
+   vertical-align: top;
+
+}
+
+/* 经过显示隐藏栏 */
+.list .first:hover .nav{
+    background: #272b2f;
+    display: block;
+}
+.first .nav{
+    float: left;
+    width: 200px;
+    background: #272b2f;
+    display: none;
+}
+.nav li{
+    padding-left: 12px;
+}
+.nav li span{
+  font: bold 14px/30px Arial;
+  color: #00c1de;
+}.nav li a{
+  font: bold 14px/30px Arial;
+}
+.nav li a:hover{
+    color: #00a2ca;
+}
+.list3{
+    background: #00c1de;
+    width: 56px;
+    padding: 0 30px;
+}
+
+/* ————————————下半部分导航—————————— */
+.head_b{
+    height: 170px;
+    
+    background: #fff;
+    color: #000;
+    /* padding-left: 75px; */
+}
+/* ————————————————的上部分—————————————— */
+.head_bt{
+
+    height: 98px;
+    padding-top: 32px;
+}
+/* 标题 */
+.logo{
+
+width: 21%;
+height: 100%;
+background: url(../img/head_bt_logo.png)no-repeat;
+background-size: 120px;
+font-size:0;
+float: left;
+}
+.logo_r{
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+/* 搜索框 */
+.logo_top{
+   
+}
+.logo_top form{
+   font-size: 0;
+}
+.logo_top form>span{
+    padding: 0 7px 0 6px;
+    color: #979797; 
+    line-height: 34px;
+    font-size: 14px;
+    float: left;
+}
+.logo_top .form_text{
+    height: 34px;
+    width: 360px;
+    padding-left: 1px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-right: none;
+     float: left;
+}
+.form_text:focus{
+   border-color: #00c1de;
+}
+.logo_top .form_text2{
+    color: #fff;
+    background: #00c1de;
+    border: none;
+    width: 56px;
+    line-height: 34px;
+    float: left;
+}
+.logo_list{
+   float: left;
+   position: relative;
+}
+
+.logo_top .logo_list>a{
+    width: 95px;
+    background: #00c1de;
+   
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 10px;
+    position: relative;
+}
+.logo_top .logo_list>a span{
+    height: 100%;
+    width: 19px;
+    background: 
+    url(../img/logo_list.png)
+    no-repeat 
+     center;
+    float: right;
+
+    font-size: 0;
+}
+
+
+/* 隐藏下拉菜单 */
+.logo_list_none{
+    width: 248px;
+    height: 0;
+    z-index: 10;
+    background: #fff;
+    position: absolute;
+    top: 33px;
+    font-size: 14px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 1s;
+    transition-property: height;
+}
+/* 经过时显示下拉菜单 */
+.logo_list:hover .logo_list_none{
+    height: 257px;
+    width: 248px;
+    border: 1px solid #dddddd;
+    border-top: none;
+    opacity: 1;
+  
+}
+/* 隐藏内容 */
+.logo_list_none h3{
+    line-height: 35px;
+    height: 35px;
+    text-align: center;
+    background: #f8f8f8;
+    font-size: 12px;
+    color: #000;    
+    font-weight: normal;
+
+}
+.logo_none_ul{
+    font-size: 12px;
+    color: #999999;
+    
+}
+.logo_none_ul li{
+    height: 38px;
+    width: 208px;
+    padding-left: 40px;
+    margin-top: 10px;
+    background: url(../img/logo_list_none.png)no-repeat 10px top;
+
+}
+    .logo_none_ul li:nth-child(2){
+
+     background-position: 10px -46px;
+    }    
+    .logo_none_ul li:nth-child(3){
+
+     background-position: 10px -91px;
+    }
+
+
+.logo_none_ul strong{
+    font-weight: normal;
+    color: #000;
+    display: block;
+    font-size: 14px;
+}
+.logo_list_none p{
+    text-align: center;
+    line-height: 30px;
+         
+}
+/* ——————————————————发布需求———————————————— */
+.logo_list_none p a{
+    color: rgb(45, 183, 245);
+    font-size: 12px;
+}
+.logo_none_ul_a{
+    padding: 10px 0;
+    text-align: center;
+}
+.logo_none_ul_a a{
+    color: #fff;
+    background: #00c1de;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0 12px;
+    line-height:26px;
+    border: 1px solid #00c1de; 
+}
+.logo_none_ul_a a:hover{
+    background: #33cde5;
+}
+/* ——————————————————我的需求—————————————————— */
+.logo_none_ul_a .logo_none_a1{
+    background: #fff;
+    color: #00a2ca;   
+    border: 1px solid #00c1de; 
+}
+.logo_none_ul_a .logo_none_a1:hover{
+    background: #38cfe5;
+    color: #fff;
+}
+/* ————————————————————买家需求———————————————————— */
+
+/* 定位父级 */
+.logo_rigth{
+float: right;
+width: 80px;
+font-size: 12px;
+margin-left: 8px;
+
+position: relative;
+}
+.logo_rigth_a1 a{
+    color: #00c1de;
+}
+/* ————————边框的控制———————— */
+.logo_rigth_a1{
+    border: 1px solid #00a2ca;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    z-index: 22;
+    padding-left: 10px;
+}
+.logo_rigth:hover .logo_rigth_a1{
+    border-bottom:1px solid #fff;
+}
+
+/* ————————箭头的控制———————— */
+.logo_rigth_a1 span{
+    height: 100%;
+    width: 11px;
+    font-size: 0;
+    position: absolute;
+    right: 8px;
+    top: 0;
+    background: url(../img/logo_rigth_a1.png)
+            no-repeat right center;
+}
+.logo_rigth_a1:hover span{
+    background: url(../img/logo_rigth_a2.png)
+            no-repeat right center;
+    
+}
+/* 隐藏下拉菜单的控制 */
+
+.logo_rigth_a2{
+    display: none;
+    border: 1px solid #00a2ca;
+    width: 115px;
+    z-index: 44;
+    background: #fff;
+    top: 29px;
+    left:0;
+    position: absolute;
+}
+.logo_rigth:hover .logo_rigth_a2{
+    display: block;
+}
+/* 下拉菜单的内容 */
+.logo_rigth_a2 p{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.logo_rigth_a2 p:hover{
+    background: #f0f5f9;
+}
+
+.logo_rigth_a2 a{
+    color: #00a2ca;
+}
+.lo_right{
+    margin-right: 84px;
+}
+.lo_right .logo_rigth_a2{
+    width:90px;
+}
+/* ————————————-内容展示部分———————————————— */
+/* 病毒清楚——列表 */
+.logo_bottom{
+    margin-top: 36px;
+    /* 跟上一级拉开距离，不然会有浮动问题 */
+}
+.logo_bottom li{
+    float:left;
+  line-height: 32px;
+}
+.logo_bottom li a{
+  font-size: 12px;
+  color: #979797;
+    padding: 0 6px 0 6px;
+    border-right: 1px solid #979797;
+}
+
+.logo_bottom li a:hover{
+    color: #00a2ca;
+}
+.logo_bottom li span{
+
+}
+
+/* ————————————————的下部分—————————————— */
+ /* 定位父级 */
+.head_bb{
+    height: 40px;
+    position: relative;
+}
+/* ————————————云市场分类卡—————————————— */
+.yun{
+    
+    line-height: 41px;
+    float: left;
+    width: 219px;
+    padding-left: 11px;
+    background: #373d41;
+    color: #ffffff;
+    margin-right: 27px;
+}
+.yun h3{
+    width: 230px;
+     font-size: 14px;
+}
+
+/* ————————————列表基础软件———————————— */
+.head_b_list{
+    line-height: 40px;
+   
+}
+.head_b_list>li{
+    float: left;
+    
+}
+.head_b_list>li a{
+    color: #333;
+    font-size: 14px;
+    padding-right: 27px;
+
+}
+.head_b_list .h_b_list_a{
+    background: url(../img/huasuan.png)no-repeat center;
+    background-size: 50px;
+    font-size: 0;
+    display: inline-block;
+    border-left: 1px solid #ddd;
+    height: 20px;
+    vertical-align: middle;
+    padding-left: 72px;
+}
+.head_b_list .h_b_list_2{
+    background: url(../img/h_b_list_a2.png)no-repeat center top;
+        background-size: 22px;;
+    display: inline-block;
+    padding: 0 10px;
+}
+.head_b_list li a:hover{
+    color: #00c1de;
+}
+/* 层级固定的盒子脱离文档流 */
+/* ——————————————可选经过菜单———————————— */
+.head_b_list2{
+    height: 40px;
+    width: 230px;
+}   
+.head_b_dl{
+    width: 219px;
+    padding-left: 11px; 
+    background: #4f5ab4;
+}
+.head_b_dl:nth-child(2n+1){
+    background: #545fbe;
+}
+/* 鼠标经过dl时切换背景色 *//* 鼠标经过dl时显示隐藏块 */
+.head_b_dl:hover{
+    background: #7983d3;
+}
+
+.head_b_dl>dt,
+.head_b_dl>dd{
+    float: left;
+    padding-right: 4px;
+    font-size: 0;
+    
+}
+.head_b_dl>dt a,
+.head_b_dl>dd a{
+    font-size: 12px;
+    line-height: 36px;
+    color: #ffffff;
+}
+.head_b_dl dt a{
+    font-weight: bold;
+}
+/*  ————————隐藏与显示——————*/
+.head_b_dl_none{
+    position: absolute;
+    width: 0;
+    height: 470px;
+    top: 40px;
+    left: 245px;
+    background: #f8f8f8;
+    z-index: 10;
+    opacity: 0;
+    overflow: hidden;
+    /*指定宽度出现时长 */
+    transition: .3s;
+    transition-property:width;
+}
+
+
+/*  ————————隐藏与显示——————*/
+.head_b_dl:hover>.head_b_dl_none{
+    width: 950px;
+    opacity: 1;
+  
+}
+
+
+.base{
+    width: 720px;
+    height: 450px;
+    padding-top: 20px ;
+}
+ .base>li{
+    float: left;
+    padding-left: 39px;
+    width: 280px;
+    height: 100%;
+}
+.base>li a{
+    color: #333333;
+    font-size: 12px;
+    padding-right: 7px;
+}
+.base>li strong{
+    color: #ff6600;
+    font-weight: normal;
+}
+.base>li p{
+    width: 260px;
+    padding-bottom: 13px;
+}
+/* 可选经过菜单的第十个选项 */
+.head_b_bottom{
+    height: 146px;
+    width: 219px;
+    padding-left: 11px; 
+    background: #2c3264;
+}
+/* _________免费发布定制需求________ */
+.head_b_bottom>span{
+    font-size: 12px;
+    color: #fff;
+    line-height: 35px;
+    padding-bottom: 1px;
+   display: inline-block;
+}
+.head_b_bottom p{
+    height: 38px;
+    line-height: 38px;
+    width: 206px;
+    margin-bottom:4px; 
+}
+.head_b_bottom p a{
+    font-size: 12px;
+    padding-left: 11px;
+}
+.head_b_bottom .head_b_bottom_a1{
+    background:#4f58b6 
+    url(../img/head_b_bottom_a.png)no-repeat 
+    right center;
+}
+.head_b_bottom .head_b_bottom_a1:hover{
+    background:#818cf7 
+    url(../img/head_b_bottom_a.png)no-repeat
+     right center;
+}
+.head_b_bottom .head_b_bottom_a{
+ text-align: center;
+ background: #6a73d0;
+}
+.head_b_bottom .head_b_bottom_a a{
+    font-size: 14px;
+}
+
+.lll .lll_ul{
+    font-size: 12px;
+    overflow: hidden;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.lll_ul li{      
+    width:400%;
+    position: absolute;
+    height: 100%;
+    animation: rotate 4s 1s infinite normal linear;
+/* 
+    animation:动画名称 动画执行时间 动画延迟时间 动画执行次数（数字|| infinite无限循环） 动画是否回退播放（normal||alternate） 动画播放形式（linear）
+ */
+}
+.lll_ul a{
+    color: #00a2ca;
+    display: inline-block;
+}
+.lll_ul span{
+    color: #fff;
+}
+.lll_ul strong{
+    color: yellowgreen;
+}
+
+
+@keyframes rotate {
+        from{
+            transform: translate(0);
+
+        }
+        to{
+            transform: translate(-240px);
+        }
+}
+
+.lll_ul:hover{
+    animation-play-state: paused;
+ }
+
+
+

@@ -1,0 +1,1112 @@
+.content {
+    background: #8288f7;
+}
+
+.content_img {
+    background: url(../img/content_bg2.png)repeat-x;
+    background-size: 1348px 471px;
+    height: 450px;
+    padding-top: 20px;
+}
+
+/* 居中选项卡展示 */
+
+.content_left {
+    height: 430px;
+    width: 680px;
+    margin-right: 20px;
+    float: right;
+}
+
+/* ——————————选项卡部分———————— */
+
+.content_top {
+    height: 280px;
+    width: 680px;
+    margin-bottom: 20px;
+}
+
+.skyli {
+    float: left;
+}
+
+.sky {
+    height: 280px;
+    position: relative;
+}
+
+.sky li {
+    caption-side: unset;
+}
+
+.sky li input {
+    display: none;
+}
+
+.sky li label {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 270px;
+    bottom: 16px;
+    z-index: 222;
+    margin: 10px;
+}
+
+.nas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 280px;
+    padding-left: 40px;
+    width: 640px;
+    background: url(../img/sky1.png)no-repeat;
+    background-size: 100%;
+    display: none;
+}
+
+.nas h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 21px;
+    font-weight: 400;
+    margin-top: 45px;
+    color: #fff;
+}
+
+.nas p {
+    height: 44px;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 51px;
+    color: #fff;
+    width: 324px;
+}
+
+.nas a {
+    height: 44px;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 51px;
+    color: #fff;
+    width: 324px;
+}
+
+.sky li input:checked~div {
+    display: block;
+}
+
+.sky li:nth-child(2) label {
+    left: 240px;
+}
+
+.sky li:nth-child(2) .nas {
+    background: url(../img/sky2.png)no-repeat;
+    background-size: 100%;
+}
+
+.sky li:nth-child(3) label {
+    left: 300px;
+}
+
+.sky li:nth-child(3) .nas {
+    background: url(../img/sky3.png)no-repeat;
+    background-size: 100%;
+}
+
+.sky li:nth-child(4) label {
+    left: 330px;
+}
+
+.sky li:nth-child(4) .nas {
+    background: url(../img/sky4.png)no-repeat;
+    background-size: 100%;
+}
+
+.sky li:nth-child(5) label {
+    left: 360px;
+}
+
+.sky li:nth-child(5) .nas {
+    background: url(../img/sky5.png)no-repeat;
+    background-size: 100%;
+}
+
+/* ————————————头条文档部分—————————— */
+
+.content_bottom {
+    height: 130px;
+    background: #fff;
+}
+
+.ai {
+    height: 100%;
+}
+
+/* 标题 */
+
+.ai_1,
+.ai_2 {
+    float: left;
+    padding: 21px 20px 11px 20px;
+    width: 299px;
+    border-right: 1px solid #eee;
+}
+
+.ai_1 p {
+    line-height: 28px;
+}
+
+.ai_1 p span {
+    font-size: 16px;
+}
+
+.ai_1 p a {
+    float: right;
+    color: #00c1de;
+    font-size: 12px;
+}
+
+/* 列表 */
+
+.ai_c li a {
+    font: 12px/21px "微软雅黑";
+    color: #666666;
+}
+
+.ai_1 a:hover {
+    color: #00c1de;
+}
+
+/* ————————————————————————图片缩放———————————————— */
+
+.content_right {
+    width: 230px;
+    height: 430px;
+    float: right;
+}
+
+.content_right ul {
+    height: 100%;
+    width: 100%;
+}
+
+.content_right ul li {
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.c_right_h4 {
+    height: 100%;
+    background: url(../img/222.png)no-repeat;
+}
+
+.c_right_h4:hover {
+    background: url(../img/222.png)no-repeat;
+    background-size: 250px;
+}
+
+.c_right_h4 h4 {
+    padding: 43px 40px 0 20px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fffff9;
+}
+
+.c_right_h4 p {
+    margin: 0 40px 0 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff3ef;
+}
+
+/* ）————————————————————云市场———————————————————— */
+
+.ai_2 {
+    border: none;
+}
+
+.ai_2 p {
+    width: 169px;
+    float: left;
+}
+
+.ai_2 p span {
+    display: block;
+    line-height: 28px;
+    padding-bottom: 2px;
+}
+
+.ai_2 p a {
+    font-size: 12px;
+    color: #333;
+}
+
+.ai_2_img {
+    width: 127px;
+    height: 93px;
+    position: relative;
+    float: right;
+}
+
+/* 播放按钮 */
+
+.ai_2_img a {
+    float: left;
+    height: 100%;
+    width: 100%;
+    background: url(../img/ai_2_img.png)no-repeat center;
+    background-size: 63px;
+    font-size: 0;
+}
+
+/* 移动是切换图片换色 */
+
+/* .ai_2_img a:hover {
+    background: url(../img/ai_2_img2.png)no-repeat center;
+    background-size: 63px;
+}
+
+.ai_2_img input {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+} */
+
+/* 点击后跳转播放画面 */
+
+/* #img_none {
+    display: none;
+    position: fixed;
+    left: 20%;
+    top: 15%;
+    height: 450px;
+    width: 800px;
+    background: wheat;
+    z-index: 66;
+} */
+
+/* .ai_2_img input:checked~#img_none {
+    display: block;
+    z-index: 77;
+} */
+
+/* ___________商品介绍,聚划算_____  */
+
+.bargain {
+    background: #7b81f4;
+}
+
+.bargain p {
+    font-size: 0;
+    color: #fff;
+}
+
+.bargain p span {
+    font-size: 18px;
+    line-height: 64px;
+}
+
+.bargain p em {
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+.bargain_ul {
+    padding-top: 1px;
+    padding-bottom: 20px;
+    height: 283px;
+}
+
+.bargain_ul li:nth-child(4) {
+    margin-right: 0;
+}
+
+/* 定位父级 */
+
+.bargain_ul li {
+    float: left;
+    width: 280px;
+    height: 283px;
+    background: #ccc;
+    margin-right: 26px;
+    position: relative;
+}
+
+/* 限时抢购 */
+
+.bargain_list1 {
+    height: 113px;
+    background: #fff;
+}
+
+.bargain_list1 img {
+    width: 120px;
+    height: 90px;
+    margin-left: 80px;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+.bargain_ul .bargain_list2 {
+    height: 99px;
+    padding-top: 11px;
+    background: #fff;
+    border-top: 1px solid #ececec;
+}
+
+.bargain_list2 h5 {
+    line-height: 24px;
+    padding-left: 15px;
+}
+
+.bargain_list2 h5 a {
+    color: #00c1de;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.bargain_list2 p {
+    line-height: 18px;
+    color: #6d6d6d;
+    padding-left: 16px;
+}
+
+.bargain_list2 p a {
+    font-size: 12px;
+    color: #6d6d6d;
+}
+
+/* 定位提示文字 */
+
+.bargain_list2>div {
+    position: relative;
+    left: 15px;
+    top: 30px;
+    font-size: 12px;
+}
+
+/* 定位限时抢购 */
+
+.xians {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #d31717;
+    font-size: 12px;
+    line-height: 24px;
+    width: 64px;
+    text-align: center;
+}
+
+.xians span {
+    padding: 0 7px;
+    color: #fff;
+}
+
+/* 顶部小三角形，向右 */
+
+.san {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-left: 6px solid #d31717;
+    position: absolute;
+    left: 64px;
+    top: 0;
+    font-size: 0;
+}
+
+.bargain_list3 {
+    position: absolute;
+    background: #d31717;
+    height: 60px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.bargain_list3 a {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    text-indent: 16px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.bargain_list3 a:nth-of-type(2) {
+    background: #ffc638;
+}
+
+/* .bargain_list3 a:nth-of-type(2):hover{
+    background: #ffcf58;
+} */
+
+/* 底部大三角形，向左 */
+
+.bargain_list3>div {
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-right: 16px solid #ffc638;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    font-size: 0;
+}
+
+/* ——————————————————板块内容展示———————————————— */
+
+/* 软件帮助 */
+
+.help {
+    height: 2700px;
+    padding-top: 40px;
+}
+
+/* ————————————————————板块展示一 ——————————————————*/
+
+.help_top {
+    height: 271px;
+}
+
+.help_top_ul {
+    height: 268px;
+}
+
+.help_top_ul li:nth-child(4) {
+    margin-right: 0;
+}
+
+.help_top_ul li {
+    float: left;
+    width: 280px;
+    height: 100%;
+    background: #f8f8f8;
+    margin-right: 26px;
+    position: relative;
+}
+
+.help_top_h5 {
+    height: 48px;
+    border-left: 4px solid #949afe;
+    background: #fff;
+    padding: 16px 20px;
+}
+
+/* 助您将应用及数据迁移上云 */
+
+.help_top_h5 h5 {
+    font-size: 0;
+    height: 24px;
+}
+
+.help_top_h5 h5 a {
+    font-size: 16px;
+    color: #3b3b3b;
+}
+
+.help_top_h5 a:hover {
+    color: #00c1de;
+}
+
+/* 更多 */
+
+.help_top_h5 p {
+    height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.help_top_h5 p a {
+    float: right;
+    color: #00c2de;
+}
+
+/* 故障排查 */
+
+.help_top_p {
+    width: 280px;
+}
+
+.help_top_p li {
+    width: 188px;
+    padding-top: 32px;
+    padding-left: 92px;
+    background: url(../img/1.png)no-repeat 31px -59px;
+    background-size: 48px;
+    color: #999999;
+}
+
+.help_top_p li:nth-of-type(2) {
+    background: url(../img/1.png)no-repeat 31px 34px;
+    background-size: 48px;
+}
+
+.help_top_p li a {
+    display: block;
+    color: #3b3b3b;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.help_top_p li a:hover {
+    color: #00c1de;
+}
+
+.help_top_p li span {
+    line-height: 28px;
+    font-size: 12px;
+}
+
+/* _____________________模块展示内容二 */
+
+.help_conter {}
+
+.help_conter_ul>li {
+    height: 354px;
+    width: 580px;
+    margin-right: 20px;
+    float: left;
+}
+
+.help_conter_ul h6 {
+    line-height: 66px;
+    padding-top: 18px;
+    font-size: 18px;
+    color: #373d41;
+    font-weight: normal;
+    background: #eee;
+}
+
+.help_conter_h6 {
+    height: 270px;
+    background: #fff;
+}
+
+/* ——————————双飞翼布局—————————— */
+
+/* 侧边栏 */
+
+.help_h6_right {
+    width: 130px;
+    background: #05cac1;
+    height: 100%;
+    float: left;
+}
+
+/* 90%用户都在用  */
+
+.help_h6_right>p {
+    line-height: 84px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* 操作系统 */
+
+.help_h6_b {
+    font-size: 0;
+    background: #00d5cb;
+}
+
+.help_h6_b a {
+    padding: 0 5px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background: #05cac1;
+}
+
+.help_h6_b a:hover {
+    background: #fff;
+    color: #00c1de;
+}
+
+/*  */
+
+.help_h6_left {
+    margin-left: 130px;
+    height: 100%;
+    width: 450px;
+    background: #ffffff;
+}
+
+.h6_left_ul {
+    width: 450px;
+    height: 100%;
+    font-size: 12px;
+}
+
+/* php */
+
+/* ————————————第一个格式—————————————————————————————— */
+
+.h6_left_ul .h6_left_li,
+.h6_left_li1 {
+    height: 99px;
+    width: 194px;
+    padding: 15px 15px 20px 15px;
+    background: #fff;
+    float: left;
+    border-right: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+}
+
+.h6_left_ul .h6_left_li a:hover {
+    color: #00c1de;
+}
+
+.h6_left_li .left_fig {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.left_figc a {
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.left_figc {
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 20px;
+    height: 20px;
+}
+
+.left_figc span {
+    width: 123px;
+    display: inline-block;
+}
+
+.left_fig img {
+    height: 70px;
+    width: 70px;
+    float: right;
+}
+
+/* 第一个的小部分 */
+
+.h6_left_li1 {
+    padding-top: 0;
+    height: 114px;
+    width: 224px;
+    padding: 0 0 20px 0;
+}
+
+/* ——————————————————————控制阴影部分的效果———————————————————— */
+
+.h6_left_li:hover,
+.help_h6_r li:hover {
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, .15);
+    z-index: 555;
+    position: relative;
+}
+
+.h6_left_li:hover a,
+.help_h6_r li:hover a {
+    color: #05cac1;
+}
+
+.h6_left_top:hover a,
+.serve_l:hover a {
+    color: #00b7d3;
+}
+
+.h6_left_top {
+    height: 44px;
+    padding: 10px 15px 13px 15px;
+    border-bottom: 1px solid #ececec;
+}
+
+.h6_left_top:nth-of-type(2) {
+    border: none;
+}
+
+.h6_left_top a {
+    display: block;
+    color: #373d41;
+    line-height: 23px;
+    font-size: 14px;
+}
+
+.h6_left_top span {
+    color: #999999;
+    line-height: 21px;
+    font-size: 12px;
+}
+
+/* ————————————————第二个格式—————————————— */
+
+.help_h6_r {
+    height: 200px;
+}
+
+.help_h6_r li {
+    float: left;
+    padding-top: 15px;
+    width: 149px;
+    height: 184px;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}
+
+.help_h6_r .left_fig {
+    padding: 0 16px 20px 16px;
+}
+
+.help_h6_r .left_fig img {
+    height: 70px;
+    width: 70px;
+    margin-top: 75px;
+}
+
+.serve_l {
+    float: left;
+    width: 210px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-right: 1px solid #ececec;
+}
+
+.serve_r {
+    float: right;
+    width: 208px;
+}
+
+.serve_l a {
+    font-size: 14px;
+    color: #373d41;
+    line-height: 24px;
+    display: block;
+}
+
+.serve_l span {
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 20px;
+    height: 20px;
+}
+
+/* ——————————————第三个格式———————————— */
+
+.xin {
+    background: #f8f8f8;
+    padding-left: 20px;
+    width: 180px;
+}
+
+.xin img {
+    width: 180px;
+    height: 180px;
+    padding-top: 20px;
+}
+
+.xin_t a {
+    padding-top: 15px;
+    display: block;
+    color: #373d41;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.xin_t a:hover {
+    color: #00c1de;
+}
+
+.xin_t span {
+    color: #a5a5a5;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+/*  拉卡拉*/
+
+.xin_b .xin_left_b {
+    padding-left: 80px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.xin_left_b img {
+    width: 90px;
+    height: 36px;
+}
+
+/*  */
+
+.help_conter_h6 .xin_b p {
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.xin_b p a {
+    display: block;
+    color: #373d41;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #373d41;
+}
+
+.xin_b p span {
+    font-size: 12px;
+    color: #a5a5a5;
+    line-height: 20px;
+    margin-top: 4px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.advantage {
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.advantage>li {
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding: 12px 0;
+    line-height: 0;
+    overflow: hidden;
+    margin-left: -1px;
+}
+
+.advantage_b {}
+
+.advantage_b>li {
+    padding-top: 12px;
+    float: left;
+    width: 33.33%;
+    height: 75px;
+    border-left: 1px solid #ececec;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.advantage_b>li:nth-of-type(1) {
+    border: none;
+}
+
+.advantage_b>li span {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 12px;
+    color: #6d6d6d;
+    display: block;
+}
+
+.advantage_b>li strong {
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-top: 5px;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+/* ——————————内容展示模块三 */
+
+.help_bottom p {
+    line-height: 66px;
+    padding-top: 18px;
+}
+
+.h_bottom_div {}
+
+.h_bottom_ul {
+    height: 270px;
+}
+
+.h_bottom_ul li {
+    float: left;
+    height: 100%;
+    width: 279px;
+    background: #fff;
+    margin-right: 22px;
+    margin-bottom: 20px;
+}
+
+.h_bottom_ul li:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+/* 经过时的阴影 */
+
+.h_bottom_ul li:hover {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .15);
+}
+
+/*  */
+
+.h_b_div {
+    background: #f8f8f8;
+    text-align: center;
+    height: 113px;
+    line-height: 113px;
+}
+
+.h_b_div img {
+    padding-top: 12px;
+    width: 120px;
+    height: 90px;
+}
+
+/*  */
+
+.h_b_div2 {
+    border-top: 1px solid #ececec;
+    height: 135px;
+    ;
+}
+
+.h_b_div2 h5 {
+    color: #00c1de;
+    margin-top: 20px;
+    padding: 0 16px;
+    line-height: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.h_b_div2 h5 a {
+    color: #00b7d3;
+    font-size: 16px;
+}
+
+.h_b_div2 p {
+    font-size: 12px;
+    line-height: 20px;
+    height: 40px;
+    margin-bottom: 16px;
+    color: #6d6d6d;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    padding: 0 16px;
+}
+
+.h_b_div2 h6 {
+    font-size: 18px;
+    color: #f60;
+    padding: 0 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.h_b_div2>div a {
+    font-size: 12px;
+    color: #333;
+    padding: 0 16px;
+}
+
+/*    box-shadow: 0 2px 15px 0 rgba(0,0,0,.15)
+}  */
+
+.f {
+    background: #f5f5f5;
+    padding: 20px 0 10px;
+    background: #f5f5f5;
+    margin: 0;
+}
+
+.f_top {
+    padding: 20px 0 10px;
+    border: 1px solid #e8e8e8;
+    width: 1170px;
+}
+
+.f_top dl {
+    line-height: 36px;
+}
+
+.f_top dl dt,
+.f_top dl dd {
+    float: left;
+    font-size: 12px;
+    color: #373d41;
+    padding: 0 20px;
+}
+
+.f_top dd a {
+    color: #b0a5a5;
+    font-size: 12px;
+}
+
+/* ———————————————————— */
+
+.f_conter {
+    padding-top: 40px;
+    font-size: 26px;
+    color: #373d41;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.f_ul {}
+
+.f_ul li {
+    padding: 20px 0 20px;
+    margin: 0;
+    float: left;
+    height: 84px;
+    width: 25%;
+}
+
+.f_fig {
+    padding-right: 20px;
+    height: 84px;
+}
+
+.f_fig img {
+    padding-right: 20px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    vertical-align: middle;
+}
+
+.f_figc h6 {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 14px;
+    color: #373d41;
+}
+
+.f_figc p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/* ———————————————————————————— */
+
+.f_fig2 img {
+    height: 100%;
+}
